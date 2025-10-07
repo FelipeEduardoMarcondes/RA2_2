@@ -1,0 +1,2663 @@
+[
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 10.428676643235324,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 20.53,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": -5.345345,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "C",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "lt",
+    "value": "<",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "lte",
+    "value": "<=",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 10,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "gte",
+    "value": ">=",
+    "children": [
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 20,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "eq",
+    "value": "==",
+    "children": [
+      {
+        "type": "id",
+        "value": "C",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": -5,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "neq",
+    "value": "!=",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "minus",
+    "value": "-",
+    "children": [
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "num",
+        "value": 10,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 3,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "num",
+        "value": 100,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 7,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_real",
+    "value": "|",
+    "children": [
+      {
+        "type": "num",
+        "value": 100,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 7.0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mod",
+    "value": "%",
+    "children": [
+      {
+        "type": "num",
+        "value": 10,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 3,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "pow",
+    "value": "^",
+    "children": [
+      {
+        "type": "num",
+        "value": 2,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 8,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "if",
+        "value": "IF",
+        "children": [
+          {
+            "type": "lt",
+            "value": "<",
+            "children": [
+              {
+                "type": "id",
+                "value": "C",
+                "children": []
+              },
+              {
+                "type": "num",
+                "value": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "num",
+            "value": 1,
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": -1,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "I",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "while",
+    "value": "WHILE",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "I",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 5,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "I",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "res",
+    "value": "RES",
+    "children": [
+      {
+        "type": "num",
+        "value": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "C",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 10,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "div_real",
+    "value": "|",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "C",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "gt",
+    "value": ">",
+    "children": [
+      {
+        "type": "mod",
+        "value": "%",
+        "children": [
+          {
+            "type": "num",
+            "value": 100.43,
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "C",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          },
+          {
+            "type": "pow",
+            "value": "^",
+            "children": [
+              {
+                "type": "id",
+                "value": "C",
+                "children": []
+              },
+              {
+                "type": "num",
+                "value": 2,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "minus",
+    "value": "-",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "C",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 100,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "X",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 200,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "Y",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": -50.5,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "Z",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "while",
+    "value": "WHILE",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "I",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 20,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "assign",
+        "value": ":=",
+        "children": [
+          {
+            "type": "plus",
+            "value": "+",
+            "children": [
+              {
+                "type": "id",
+                "value": "I",
+                "children": []
+              },
+              {
+                "type": "num",
+                "value": 2,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "id",
+            "value": "I",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "id",
+    "value": "I",
+    "children": []
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "gt",
+        "value": ">",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "if",
+        "value": "IF",
+        "children": [
+          {
+            "type": "gt",
+            "value": ">",
+            "children": [
+              {
+                "type": "id",
+                "value": "B",
+                "children": []
+              },
+              {
+                "type": "num",
+                "value": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "mult",
+            "value": "*",
+            "children": [
+              {
+                "type": "id",
+                "value": "A",
+                "children": []
+              },
+              {
+                "type": "id",
+                "value": "B",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "div_int",
+        "value": "/",
+        "children": [
+          {
+            "type": "if",
+            "value": "IF",
+            "children": [
+              {
+                "type": "gt",
+                "value": ">",
+                "children": [
+                  {
+                    "type": "mult",
+                    "value": "*",
+                    "children": [
+                      {
+                        "type": "mult",
+                        "value": "*",
+                        "children": [
+                          {
+                            "type": "id",
+                            "value": "RAIO",
+                            "children": []
+                          },
+                          {
+                            "type": "id",
+                            "value": "RAIO",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "id",
+                        "value": "PI",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "id",
+                    "value": "LIMIT",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "assign",
+                "value": ":=",
+                "children": [
+                  {
+                    "type": "plus",
+                    "value": "+",
+                    "children": [
+                      {
+                        "type": "res",
+                        "value": "RES",
+                        "children": [
+                          {
+                            "type": "num",
+                            "value": 1,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "id",
+                        "value": "VALORANTIGO",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "id",
+                    "value": "RESULTADO",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "num",
+                "value": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "num",
+            "value": 2,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "div_int",
+        "value": "/",
+        "children": [
+          {
+            "type": "if",
+            "value": "IF",
+            "children": [
+              {
+                "type": "gt",
+                "value": ">",
+                "children": [
+                  {
+                    "type": "mult",
+                    "value": "*",
+                    "children": [
+                      {
+                        "type": "mult",
+                        "value": "*",
+                        "children": [
+                          {
+                            "type": "id",
+                            "value": "RAIO",
+                            "children": []
+                          },
+                          {
+                            "type": "id",
+                            "value": "RAIO",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "id",
+                        "value": "PI",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "id",
+                    "value": "LIMIT",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "assign",
+                "value": ":=",
+                "children": [
+                  {
+                    "type": "plus",
+                    "value": "+",
+                    "children": [
+                      {
+                        "type": "res",
+                        "value": "RES",
+                        "children": [
+                          {
+                            "type": "num",
+                            "value": 1,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "id",
+                        "value": "VALORANTIGO",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "id",
+                    "value": "RESULTADO",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "num",
+                "value": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "num",
+            "value": 2,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "div_real",
+    "value": "|",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "C",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "D",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "div_real",
+    "value": "|",
+    "children": [
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "plus",
+            "value": "+",
+            "children": [
+              {
+                "type": "mult",
+                "value": "*",
+                "children": [
+                  {
+                    "type": "plus",
+                    "value": "+",
+                    "children": [
+                      {
+                        "type": "id",
+                        "value": "A",
+                        "children": []
+                      },
+                      {
+                        "type": "id",
+                        "value": "B",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "plus",
+                    "value": "+",
+                    "children": [
+                      {
+                        "type": "id",
+                        "value": "C",
+                        "children": []
+                      },
+                      {
+                        "type": "id",
+                        "value": "D",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "mult",
+                "value": "*",
+                "children": [
+                  {
+                    "type": "plus",
+                    "value": "+",
+                    "children": [
+                      {
+                        "type": "id",
+                        "value": "E",
+                        "children": []
+                      },
+                      {
+                        "type": "id",
+                        "value": "F",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "plus",
+                    "value": "+",
+                    "children": [
+                      {
+                        "type": "id",
+                        "value": "G",
+                        "children": []
+                      },
+                      {
+                        "type": "id",
+                        "value": "H",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "div_int",
+            "value": "/",
+            "children": [
+              {
+                "type": "plus",
+                "value": "+",
+                "children": [
+                  {
+                    "type": "id",
+                    "value": "I",
+                    "children": []
+                  },
+                  {
+                    "type": "id",
+                    "value": "J",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "plus",
+                "value": "+",
+                "children": [
+                  {
+                    "type": "id",
+                    "value": "K",
+                    "children": []
+                  },
+                  {
+                    "type": "id",
+                    "value": "L",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "pow",
+            "value": "^",
+            "children": [
+              {
+                "type": "plus",
+                "value": "+",
+                "children": [
+                  {
+                    "type": "id",
+                    "value": "M",
+                    "children": []
+                  },
+                  {
+                    "type": "id",
+                    "value": "N",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "plus",
+                "value": "+",
+                "children": [
+                  {
+                    "type": "id",
+                    "value": "O",
+                    "children": []
+                  },
+                  {
+                    "type": "id",
+                    "value": "P",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "mod",
+            "value": "%",
+            "children": [
+              {
+                "type": "plus",
+                "value": "+",
+                "children": [
+                  {
+                    "type": "id",
+                    "value": "Q",
+                    "children": []
+                  },
+                  {
+                    "type": "id",
+                    "value": "R",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "plus",
+                "value": "+",
+                "children": [
+                  {
+                    "type": "id",
+                    "value": "S",
+                    "children": []
+                  },
+                  {
+                    "type": "id",
+                    "value": "T",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "ZERO",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "UM",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 10,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "DEZ",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 100,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "CEM",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": -1,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "NEGATIVO",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 0.5,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "MEIO",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 1000,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "MIL",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 3.14159265359,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "PI",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "gte",
+        "value": ">=",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 10,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "I",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "J",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "num",
+        "value": 10,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 20,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "num",
+        "value": 15,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 3,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_real",
+    "value": "|",
+    "children": [
+      {
+        "type": "num",
+        "value": 10.5,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 2.5,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mod",
+    "value": "%",
+    "children": [
+      {
+        "type": "num",
+        "value": 10,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 3,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "pow",
+    "value": "^",
+    "children": [
+      {
+        "type": "num",
+        "value": 2,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 8,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "id",
+        "value": "X",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 10,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "id",
+        "value": "Y",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 5,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "minus",
+    "value": "-",
+    "children": [
+      {
+        "type": "id",
+        "value": "C",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "D",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "id",
+        "value": "E",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "F",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "lt",
+    "value": "<",
+    "children": [
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "gt",
+    "value": ">",
+    "children": [
+      {
+        "type": "id",
+        "value": "X",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "Y",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "eq",
+    "value": "==",
+    "children": [
+      {
+        "type": "id",
+        "value": "M",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "N",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "neq",
+    "value": "!=",
+    "children": [
+      {
+        "type": "id",
+        "value": "P",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "Q",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "lte",
+    "value": "<=",
+    "children": [
+      {
+        "type": "id",
+        "value": "R",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "S",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "gte",
+    "value": ">=",
+    "children": [
+      {
+        "type": "id",
+        "value": "T",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "U",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "C",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "D",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "E",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "F",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "G",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "H",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "I",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 42,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "X",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "num",
+        "value": 100,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "Y",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "Z",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "gt",
+        "value": ">",
+        "children": [
+          {
+            "type": "id",
+            "value": "N",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "X",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "Y",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "A",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "B",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "gt",
+        "value": ">",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 10,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "VALOR",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "id",
+        "value": "PI",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 180,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "id",
+        "value": "METROS",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 3.28084,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "id",
+        "value": "POLEGADAS",
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 2.54,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "C",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "D",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "X",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "Y",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "Z",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "W",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "minus",
+    "value": "-",
+    "children": [
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "M",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "N",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "O",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "P",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "lte",
+        "value": "<=",
+        "children": [
+          {
+            "type": "id",
+            "value": "N",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 1,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "N",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "eq",
+        "value": "==",
+        "children": [
+          {
+            "type": "id",
+            "value": "N",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "MIN",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "MAX",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "MIN",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "MEDIA",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "DESVIO",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "VALOR",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "gt",
+        "value": ">",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 100,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 100,
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "VALOR",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "A11",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B11",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "A12",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B21",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "plus",
+    "value": "+",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "A21",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B12",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "A22",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "B22",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "minus",
+    "value": "-",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "A",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "D",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "B",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "C",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 100,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "TOTAL",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0.5,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "div_int",
+    "value": "/",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "CELSIUS",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 9,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 5,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "mult",
+    "value": "*",
+    "children": [
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "id",
+            "value": "FAHRENHEIT",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 32,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 5,
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "id",
+            "value": "SOMA",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "SOMA",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "assign",
+    "value": ":=",
+    "children": [
+      {
+        "type": "mult",
+        "value": "*",
+        "children": [
+          {
+            "type": "id",
+            "value": "PRODUTO",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "PRODUTO",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "gt",
+        "value": ">",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "MAX",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "VALOR",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "MAX",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "MIN",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "VALOR",
+        "children": []
+      },
+      {
+        "type": "id",
+        "value": "MIN",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "lt",
+        "value": "<",
+        "children": [
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "minus",
+        "value": "-",
+        "children": [
+          {
+            "type": "num",
+            "value": 0,
+            "children": []
+          },
+          {
+            "type": "id",
+            "value": "VALOR",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "id",
+        "value": "VALOR",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "if",
+    "value": "IF",
+    "children": [
+      {
+        "type": "mod",
+        "value": "%",
+        "children": [
+          {
+            "type": "id",
+            "value": "X",
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 2,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 0,
+        "children": []
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      }
+    ]
+  }
+]
