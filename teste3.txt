@@ -3,7 +3,6 @@
 (++)
 ()
 (A IF)
-(WHILE)
 ((A B +) C
 (42 :=)
 (RES)
@@ -16,3 +15,5 @@
 (A B + C)
 (A + B)
 (+ A B)
+(42 :=)
+((I 10 <) ((I 1 +) I assign) while) 

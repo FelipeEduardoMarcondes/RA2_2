@@ -1859,6 +1859,33 @@
     ]
   },
   {
+    "type": "pow",
+    "value": "^",
+    "children": [
+      {
+        "type": "plus",
+        "value": "+",
+        "children": [
+          {
+            "type": "num",
+            "value": 45.67866,
+            "children": []
+          },
+          {
+            "type": "num",
+            "value": 0.5,
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "num",
+        "value": 1,
+        "children": []
+      }
+    ]
+  },
+  {
     "type": "if",
     "value": "IF",
     "children": [

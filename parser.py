@@ -151,7 +151,7 @@ def parsear(tokens, tabela_ll1):
             
         if token['type'] == 'lparen':
             if paren_count == 0:
-                current_expr_tokens = [] # Inicia uma nova expressão
+                current_expr_tokens = []
 
             paren_count += 1
         
