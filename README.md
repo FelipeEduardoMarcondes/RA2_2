@@ -3,9 +3,7 @@
 # Universidade: Pontifícia Universidade Católica do Paraná
 # Curso: Linguagens Formais e Compiladores
 
-# Este projeto consiste em um analisador sintático descendente recursivo do tipo LL(1) desenvolvido em Python. 
-# O analisador é projetado para processar uma linguagem de programação simplificada que utiliza a Notação Polonesa Reversa (RPN). 
-# Ele recebe como entrada um vetor de tokens gerado por um analisador léxico e tem como objetivo validar a estrutura sintática do código, gerar uma Árvore Sintática para cada expressão válida e identificar erros sintáticos.
+## Este projeto consiste em um analisador sintático descendente recursivo do tipo LL(1) desenvolvido em Python. O analisador é projetado para processar uma linguagem de programação simplificada que utiliza a Notação Polonesa Reversa (RPN). Ele recebe como entrada um vetor de tokens gerado por um analisador léxico e tem como objetivo validar a estrutura sintática do código, gerar uma Árvore Sintática para cada expressão válida e identificar erros sintáticos.
 
 Pré-requisitos
 Python 3.x
@@ -102,10 +100,7 @@ FOLLOW(OP_BIN)       = { rparen }
 # Se A > 0 retorna A, senão retorna 0
 ((A 0 >) (A) (0) if)
 
-----------------------------------------------------------------------------------------------------------------------------------------
 
-
-----------------------------------------------------------------------------------------------------------------------------------------
 ### Estrutura WHILE
 **Sintaxe**: `(condição corpo WHILE)`
 
