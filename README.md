@@ -19,7 +19,7 @@ python main.py teste1.txt
 # Gramática LL(1)
 
 ## Símbolos Terminais
-
+'
 lparen     : '('
 rparen     : ')'
 plus       : '+'
@@ -42,9 +42,9 @@ res        : 'res' (keyword - comando de histórico)
 if         : 'if' (keyword - estrutura condicional)
 while      : 'while' (keyword - estrutura de repetição)
 eof        : Fim do arquivo (marcador de fim de entrada)
-
+'
 ## Produções da Gramática
-
+'
 PROGRAM      -> LINE PROGRAM 
                 | ε
 
@@ -66,7 +66,7 @@ EXPR         -> num
 
 OP_BIN       -> plus | minus | mult | div_real | div_int | mod | pow | 
                 eq | neq | lt | gt | lte | gte | assign
-
+'
 ## Conjuntos FIRST
 
 FIRST(PROGRAM)      = { lparen, ε }
@@ -108,6 +108,7 @@ FOLLOW(OP_BIN)       = { rparen }
 
 **Exemplos**:
 
-((I 10 <) ((I 1 +) I assign) while) # Enquanto I < 10, incrementa I
+ # Enquanto I < 10, incrementa I
+((I 10 <) ((I 1 +) I assign) while)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
