@@ -1,21 +1,5 @@
 [
   {
-    "type": "plus",
-    "value": "+",
-    "children": [
-      {
-        "type": "num",
-        "value": 15,
-        "children": []
-      },
-      {
-        "type": "num",
-        "value": 3,
-        "children": []
-      }
-    ]
-  },
-  {
     "type": "lt",
     "value": "<",
     "children": [

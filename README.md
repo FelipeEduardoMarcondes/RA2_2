@@ -108,7 +108,7 @@ python AnalisadorSintatico.py teste1.txt
 ### Estrutura IF
 
 - **Sintaxe:** `(condição valor_verdadeiro valor_falso if)`
-- **Descrição:** Avalia a `condição`. Se for verdadeira (diferente de zero), retorna `valor_verdadeiro`; caso contrário, retorna `valor_falso`.
+- **Descrição:** Avalia a `condição`. Se for verdadeira, retorna `valor_verdadeiro`; caso contrário, retorna `valor_falso`.
 - **Exemplo:**
   ```rpn
   # Se A > 0, retorna A; senão, retorna 0
@@ -118,7 +118,7 @@ python AnalisadorSintatico.py teste1.txt
 ### Estrutura WHILE
 
 - **Sintaxe:** `(condição corpo while)`
-- **Descrição:** Enquanto a `condição` for verdadeira (diferente de zero), executa o `corpo` repetidamente.
+- **Descrição:** Enquanto a `condição` for verdadeira, executa o `corpo` repetidamente.
 - **Exemplo:**
   ```rpn
   # Enquanto I < 10, incrementa I
